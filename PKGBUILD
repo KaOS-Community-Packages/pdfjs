@@ -1,13 +1,12 @@
 pkgname=pdfjs
-pkgver=4.3.136
+pkgver=4.7.76
 pkgrel=1
 pkgdesc="PDF reader in javascript"
-# conflicts=(pdfjs-legacy)
 arch=('x86_64')
 url="https://mozilla.github.io/pdf.js/"
 license=('Apache-2.0')
 source=("https://github.com/mozilla/pdf.js/releases/download/v${pkgver}/pdfjs-${pkgver}-dist.zip")
-sha256sums=('2f454599019418a9a3ebdd4a6483dcf4b76ba6c670571aa26acfb0cab54b397b')
+sha256sums=('58bb1a90e03dc197b6a3542e3b1e72a6e26a276b9e397684032d1ef3b3b3593f')
 
 package() {
   mkdir -p "$pkgdir/usr/share/pdf.js"
