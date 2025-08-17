@@ -1,13 +1,18 @@
+# Package builds
 pkg/
 src/
 *.pkg.tar.zst
+*.pkg.tar.xz
 *.tar.gz
+*.tar.xz
 *.zip
-
-
 
 # ignore ALL .log files
 *.log
 
 # ignore ALL files in ANY directory named temp
 temp/
+
+# Backup files
+*~
+*.bak
